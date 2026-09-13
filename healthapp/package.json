@@ -6,12 +6,14 @@
   "type": "module",
   "scripts": {
     "tsc": "tsc",
-    "calculateBmi": "tsc && node bmiCalculator.js"
+    "calculateBmi": "tsc && node bmiCalculator.js",
+    "calculateExercises": "tsc && node exerciseCalculator.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.20.2",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "undici-types": "^8.10.2"
   }
 }
